@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - Green Pastures</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header data-aos="fade-down">
+    <h1><img src="logo.png" alt="Logo" class="logo"> Green pastures</h1>
+    <nav>
+      <a href="main.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="completed.html">Completed Projects</a>
+      <a href="ongoing.html">Ongoing Projects</a>
+      <a href="services.html">Our Services</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 data-aos="fade-up">About Us</h2>
+    <p data-aos="fade-up" data-aos-delay="100">
+      We are a research-driven initiative integrating 
+      <strong>Artificial Intelligence with Plant Biology</strong> 
+      to solve real-world challenges in agriculture, biotechnology, and environmental sustainability.
+    </p>
+    <p data-aos="fade-up" data-aos-delay="200">
+      Our work focuses on building AI-powered systems for 
+      <strong>disease detection, precision farming, pesticide safety, soil health monitoring, 
+      genetic engineering (CRISPR), and aquatic resource management</strong>.
+    </p>
+  </section>
+
+  <!-- Mission & Vision Cards -->
+  <section id="mission-vision">
+    <div class="projects-container">
+      <div class="card" data-aos="flip-left">
+        <h3>🌱 Our Mission</h3>
+        <p>To revolutionize agriculture and plant sciences with AI, creating sustainable and scalable solutions for farmers and researchers worldwide.</p>
+      </div>
+
+      <div class="card" data-aos="flip-right" data-aos-delay="200">
+        <h3>🌍 Our Vision</h3>
+        <p>To be a global leader in AI-powered plant biology, ensuring food security, ecosystem balance, and better health for humanity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer data-aos="fade-up">
+    <div class="developer-contact">
+      <h3>👨‍💻 Developer</h3>
+      <p><strong>J. Jaydish</strong>, M.Sc.(pursing), B.Sc., PGDCA, AI & DS</p>
+      <p>Email: <a href="mailto:jaydishkennedy@gmail.com">jaydishkennedy@gmail.com</a></p>
+    </div>
+    <p>&copy; 2025 Green pastures | All rights reserved.</p>
+  </footer>
+</body>
+</html>
